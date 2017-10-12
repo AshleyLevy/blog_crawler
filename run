@@ -1,4 +1,4 @@
-require './blo_crawler.rb'
+require './crawler.rb'
 
 puts "Here is a portion of the blog cralwer"
 
