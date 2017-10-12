@@ -1,0 +1,6 @@
+require './blo_crawler.rb'
+
+puts "Here is a portion of the blog cralwer"
+
+crawler = Crawler.new
+crawler.you_are_here
