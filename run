@@ -1,6 +1,7 @@
 require './crawler.rb'
+require './blog_entry.rb'
 
-puts "Here is a portion of the blog cralwer"
+my_blog = BlogEntry.new
+my_blog.author = "Dr. Seuss"
 
-crawler = Crawler.new
-crawler.you_are_here
+puts my_blog.author

@@ -1,5 +1,10 @@
 class Crawler
-  def you_are_here
-  	puts "This is going to crawl a blog."
+  def crawl
+  	entry = BlogEntry.new
+  	entry.author = "Dr. Seuss"
+  	entry.title = "The Cat in the Hat"
+
+  	display_name = "entry.author + + entry.title"
+  	puts display_name
   end
 end
