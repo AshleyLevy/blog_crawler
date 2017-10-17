@@ -1,7 +1,5 @@
-require './crawler.rb'
-require './blog_entry.rb'
+require '.\crawler.rb'
+require '.\blog_entry.rb'
 
-my_blog = BlogEntry.new
-my_blog.author = "Dr. Seuss"
-
-puts my_blog.author
+crawler = Crawler.new
+craweler.crawl
