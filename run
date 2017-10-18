@@ -1,5 +1,6 @@
-require '.\crawler.rb'
-require '.\blog_entry.rb'
+require './crawler.rb'
+#require './blog_entry.rb'
 
 crawler = Crawler.new
-craweler.crawl
+crawler.crawl
+
