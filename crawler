@@ -4,7 +4,7 @@ class Crawler
   	entry.author = "Dr. Seuss"
   	entry.title = "The Cat in the Hat"
 
-  	display_name = "entry.author + + entry.title"
+  	display_name = "#{entry title}, By: #{entry.title}"
   	puts display_name
   end
 end
