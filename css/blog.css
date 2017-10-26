@@ -1,6 +1,6 @@
-#header {
-	color: #40e0d0;
+.header {
+	color: blue;
 	text-align: center;
 	width: 150px;
-	font: arial;
+	font: sans-serif;
 }
