@@ -1,10 +1,7 @@
-.header {
+#header {
 	color: #40e0d0;
 	text-align: center;
 	width: 150px;
 	font: arial;
 }
 
-th {
-	background-color: #D3D3D3;
-}
