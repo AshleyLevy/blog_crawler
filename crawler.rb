@@ -1,5 +1,9 @@
 require 'nokogiri'
 require 'mechanize'
+require 'active_support'
+require 'active_support/core_ext'
+require './blog_entry.rb'
+require './mechanize_adapter.rb'
 
 class Crawler
   def crawl(url)
@@ -13,8 +17,9 @@ class Crawler
 #  	display_name = "#{entry.title}, By: #{entry.author}"
 #  	puts display_name
 
-	page = agent.get(url)
-	puts page.uri
+	blog_page = agent.get(url)
+
+	puts blog_page.title
   end
 end
 
